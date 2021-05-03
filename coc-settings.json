@@ -1,0 +1,15 @@
+{
+    "rust-analyzer.server.path": "~/.config/nvim/rust-analyzer",
+    "languageserver": {
+        "golang":{
+            "command": "gopls",
+            "rootPatterns": [
+                "go.mod"
+            ],
+            "disableWorkspaceFolders": true,
+            "filetypes": [
+                "go"
+            ]
+        }
+    }
+}
