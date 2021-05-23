@@ -1,7 +1,7 @@
 {
     "rust-analyzer.server.path": "~/.config/nvim/rust-analyzer",
     "languageserver": {
-        "golang":{
+        "golang": {
             "command": "gopls",
             "rootPatterns": [
                 "go.mod"
@@ -11,5 +11,15 @@
                 "go"
             ]
         }
-    }
+    },
+    "coc.preferences.formatOnSaveFiletypes": [
+        "json",
+        "python",
+        "go"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "snippets.ultisnips.directories": [
+        "UltiSnips"
+    ]
 }
