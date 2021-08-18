@@ -221,7 +221,6 @@ let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 
 
-
 " vim-fugitive config
 if !exists('g:airline_symbols')
 	let g:airline_symbols = {}
