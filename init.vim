@@ -220,6 +220,10 @@ let g:go_fmt_fail_silently = 1
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 
+" VIM Bash
+let g:LanguageClient_serverCommands = {
+    \ 'sh': ['bash-language-server', 'strat']
+    \ }
 
 " vim-fugitive config
 if !exists('g:airline_symbols')

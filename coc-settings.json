@@ -44,6 +44,7 @@
   },
   "coc.preferences.formatOnSaveFiletypes": [
     "json",
-    "go"
+    "go",
+    "sh"
   ]
 }
