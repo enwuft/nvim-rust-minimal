@@ -1,4 +1,5 @@
 {
+  "rust-analyzer.server.path": "/home/enwuft/.cargo/bin/rust-analyzer",
   "languageserver": {
     "rust": {
       "command": "rust-analyzer",
