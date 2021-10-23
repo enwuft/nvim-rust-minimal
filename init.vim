@@ -211,6 +211,11 @@ Plug 'vim-airline/vim-airline'
 
 "Git:
 Plug 'tpope/vim-fugitive'
+
+" Optional
+" RFC! search
+Plug 'mhinz/vim-rfc'
+
 call plug#end()
 
 
