@@ -278,9 +278,9 @@ vnoremap > >gv
 
 "COLOR:
 "------
-"colorscheme gruvbox
-colorscheme low
-"set background=light
+" colorscheme gruvbox
+" colorscheme low
+" set background=light
 
 "Cycle through completion entries with tab/shift+tab
 inoremap <expr> <TAB> pumvisible() ? "\<c-n>" : "\<TAB>"
