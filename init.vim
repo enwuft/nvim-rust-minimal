@@ -3,8 +3,8 @@ let g:rustfmt_autosave = 1
 
 " GENERAL
 let g:one_allow_italics = 1
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " TextEdit might fail if hidden is not set.
